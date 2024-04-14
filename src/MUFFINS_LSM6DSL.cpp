@@ -14,7 +14,7 @@ LSM6DSL::~LSM6DSL()
 bool LSM6DSL::begin(const Config &config)
 {
   _config = config;
-  
+
   // This will always return false
   // The problem is in the library, where the begin function returns false in any case
   _imu.begin_I2C(_config.i2c_address, _config.wire);

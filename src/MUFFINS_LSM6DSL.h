@@ -44,7 +44,6 @@ public:
    */
   ~LSM6DSL();
 
-
   bool begin(const Config &config);
 
   bool read();

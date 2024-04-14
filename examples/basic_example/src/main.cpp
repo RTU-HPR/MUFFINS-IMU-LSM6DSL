@@ -34,7 +34,7 @@ void setup()
   if (!imu.begin(config))
   {
     while (1)
-    ;
+      ;
   }
 }
 
